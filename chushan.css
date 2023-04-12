@@ -1,0 +1,68 @@
+  body {
+      
+     position: relative;
+     top: 20px;
+      background: url(背景.png) center center fixed no-repeat ;
+      
+      
+      background-size: cover;
+    width: 90%;
+    height: 100%;
+  }
+  
+  #footer {
+      
+    text-size:14px;
+    text-align:center;
+  }
+  #header{
+    font-family:Microsoft JhengHei;
+    font-size:40px;
+    color: rgb(50, 179, 11);
+  
+  }
+  #word{
+    font-family:Microsoft JhengHei;
+    font-size:20px;
+    color: rgb(202, 139, 3);
+  
+  }
+  
+#nav		{ 
+    font-size: 14px;
+    border-top: solid 1px rgb(11, 61, 11);
+    background-color: rgb(50, 212, 72);
+    overflow: hidden;
+    text-align: center; 
+    top: 0px;
+    position: fixed;
+    width: 100%;  
+    
+}
+
+#nav ul		{ 
+    margin:0px;
+    padding:0px;
+  }
+
+#nav li		{ margin:0px;
+    padding:0px;
+    list-style-type: none;
+    float: left;
+    
+  }
+
+#nav li a 	{ margin:0px;
+    padding:1px;
+    display: block;
+    width: 120px;
+    text-align: center;
+    border-right: solid 2px rgb(75, 133, 58);
+    color: #008d18;
+    padding: 5px 0;
+    text-decoration: none;
+  
+   } 
+
+#nav li a:hover	{ background-color: #40fc27;} 
+
